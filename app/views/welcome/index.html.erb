@@ -1,4 +1,18 @@
-<h2>Hello World</h2>
+<style>
+  *
+  #title {
+      font-family: 'Billabong', 'sans-serif';
+      text-align: center;
+      color: black;
+      text-decoration: none;
+  }
+</style>
+
+<div id="title">
+<h1>Finance Tracker - Track Stocks</h1>
+</div>
 <p>
   The time is now: <%= Time.now %>
 </p>
+
+<%= link_to  'Sign Out', destroy_user_session_path, method: :delete%>

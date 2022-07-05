@@ -1,0 +1,1 @@
+" FINANCE TRACKER - STOCKS TRACKER SOCIAL MEDIA APP built using Ruby on Rails "
